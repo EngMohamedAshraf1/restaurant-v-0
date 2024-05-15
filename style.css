@@ -1,0 +1,232 @@
+/*S T A R T    G L O B A L */
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*E N D    G L O B A L */
+
+
+/* S T A R T   H O M E */
+/* S T A R T   c o n t e n t */
+.Home {
+    height: 100vh;
+    background-image: url(images/home.jpg);
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    
+}
+
+.Home .content{
+
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    /* display: block; */
+}
+
+
+.Home .content h1{
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.Home .content p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.Home .content button{
+    padding: 10px 20px;
+    margin: 10px 1px;
+    border-radius: 20px;
+    border: none;
+}
+
+.Home .content .btn1{
+    background-color: d9bb84;
+}
+/* <!-- E N D   c o n t e n t --> */
+
+/* S T A R T   n a v */
+.home .nav{
+    background-color: rgba(0, 0 , 0 , 0.6);
+height: 8vh;
+}
+
+.home .nav img{
+    /* background-color: tomato; */
+    float: left;
+    width:  6%;
+    margin-left: 100px;
+
+}
+
+
+
+.home .nav ul{
+    /* background-color: teal; */
+    list-style-type: none;
+    float: right;
+
+}
+
+.home .nav li {
+    float: left;
+    /* width: 100px; */
+    padding: 8px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.home .nav a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+/* <!-- E N D   H O M E --> */
+
+/* S T A R T   a b o u t */
+.about{
+    /* background-color: tomato; */
+}
+
+.about .pic{
+    /* background-color: teal; */
+    width: 50%;
+    float: left;
+}
+
+.about .pic img {
+    width: 100%;
+}
+
+
+.about .content{
+    /* background-color: brown; */
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.about .content .discover{
+    /* background-color: aqua; */
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #D9BB84;
+    font-size: 25px;
+
+}
+
+.about .content h1{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+
+}
+.about .content .our{
+    /* background-color: aquamarine; */
+    font-size: 200%;
+    color: #09c;
+}
+
+
+.about .content p{
+    line-height: 30px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    font-family: segoe ui light;
+
+
+}
+
+.about .content button{
+    border: 1px solid #09c;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+/* E N D   a b o u t */
+.bg-att{
+    background-image: url(images/bg-home.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+/* s t a r t   m e a l s */
+.meals{
+    /* background-color: tomato; */
+    text-align: center;
+}
+
+.meals img{
+    width: 100%;
+    border-radius: 50%;
+}
+.meals .meal{
+    width: 25%;
+    float: left;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.meals .one{
+    /* background-color: #09c; */
+
+}
+
+.meals .two{
+    /* background-color: #D9BB84; */
+}
+
+.meals .three{
+    /* background-color: teal; */
+}
+
+.meals .four{
+    /* background-color: yellowgreen; */
+}
+
+.meals .meal h3{
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+}
+
+.meals .meal p{
+    padding:0 10px;
+    margin-top: 10px;
+    font-family: segoe ui light;
+}
+
+
+.meals .meal .border{
+    width: 100px;
+    height: 3px;
+    background-color: #09c;
+    margin: 10px auto;
+}
